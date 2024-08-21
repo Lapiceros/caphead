@@ -8,6 +8,7 @@ public class Product
     public int ProductId { get; set; }
     [MaxLength]
     public string Name { get; set; }
+    
     public string ImageUrl { get; set; }
     [MaxLength(500)]
     public string Description { get; set; }
