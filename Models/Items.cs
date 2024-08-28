@@ -1,9 +1,12 @@
 ﻿
 
+using System.ComponentModel.DataAnnotations;
+
 namespace CapHead.Models;
 
 public class Items
 {
+    [Key]
     public int ItemId { get; set; }
     public int OrderId { get; set; }
     public int ProductId { get; set; }
